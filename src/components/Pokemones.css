@@ -1,0 +1,40 @@
+.home {
+    margin-top: 1rem;
+    text-align: center;
+
+}
+
+.index {
+    color: var(--celeste);
+    font-size: calc(1rem + 1vw);
+}
+
+.lista-pokes-home li a {
+    color: var(--naranja);
+    line-height: 1.4rem;
+    font-size: calc(0.8rem + 1vw);
+}
+
+.lista-pokes-home li a:hover {
+    color: var(--celeste);
+}
+
+.btn {
+    background-color: var(--gris);
+    border: 0.5px solid var(--naranja);
+    color: var(--naranja);
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn:hover {
+    border: 0.5px solid var(--celeste);
+    color: var(--celeste);
+    background-color: var(--negro);
+}
+
+.btn:focus {
+    outline: 0;
+}

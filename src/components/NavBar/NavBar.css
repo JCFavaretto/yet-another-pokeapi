@@ -1,0 +1,25 @@
+.color-navbar {
+    background-color: var(--negro);
+}
+
+.navbar {
+    color: var(--blanco);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 50px;
+}
+
+.nombre-pagina {
+    font-weight: 700;
+    font-size: calc(1.4rem + 1vw);
+}
+
+.burger {
+    font-size: calc(1rem + 1vw);
+}
+
+.burger:hover {
+    color: var(--naranja);
+    cursor: pointer;
+}
